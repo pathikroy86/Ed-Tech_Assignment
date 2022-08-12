@@ -18,60 +18,39 @@
 <body>
     <header class="container bottom-margin">
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid me-5">
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="images/favicon-removebg-preview-removebg-preview.png"
-                        class="img-fluid" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link me-3" aria-current="page" href="#">Home</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item me-3">
                             <a class="nav-link" href="#">Courses</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Package</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link">Success Stories</a>
+                            <a class="nav-link" href="#">Success</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link">About</a>
+                            <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link">Register</a>
+                            <a class="nav-link" href="#">Login</a>
                         </li>
                     </ul>
-                </div>
-            </div>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-white text-primary border border-primary px-5 py-2"
-                data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Login
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel"></h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Already have an account?
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Login</button>
-                        </div>
-                    </div>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-primary px-4 py-2" type="submit">Register</button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -127,7 +106,7 @@
         <!-- Courses Section Start -->
         <section class="mb-5">
             <div class="row w-100">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
@@ -146,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
@@ -165,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
@@ -184,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 col-sm-12 d-md-none d-sm-none">
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
@@ -202,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 col-sm-12 d-md-none d-sm-none">
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
@@ -220,7 +199,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 col-sm-12 d-md-none d-sm-none">
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
@@ -248,9 +227,9 @@
         <!-- Explore learning Institute Section Start -->
         <section class="d-flex align-items-center bottom-margin">
             <div class="w-50">
-                <img src="images/working.png" alt="">
+                <img src="images/working.png" class="img-fluid" alt="">
             </div>
-            <div class="w-50 ">
+            <div class="w-50">
                 <h1 class="mb-2">Explore The e-learning Institute</h1>
                 <p class="mb-4">Every individual has the potential to create change, whether in their life, their
                     community, or the
@@ -327,9 +306,9 @@
                 <p>Student's feedback is a satisfying thing for us. If they are doing well in their professional life,
                     it would be our great pleasure. </p>
             </div>
-            <div class="d-flex gap-3">
+            <div class="d-flex flex-lg-row flex-md-column flex-sm-column gap-3">
                 <div class="feedback-border">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex">
                         <div>
                             <i class="fa-solid fa-quote-right"></i>
                         </div>
