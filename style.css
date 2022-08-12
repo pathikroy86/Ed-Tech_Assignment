@@ -22,3 +22,13 @@
     padding: 20px 25px;
     border-radius: 8px;
 }
+
+.footer-styling {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.fa-brands {
+    margin-left: 30px;
+    color: white;
+}
